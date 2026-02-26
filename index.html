@@ -30,7 +30,7 @@
 
     <script>
         // এখানে " " এর ভেতরে আপনার নতুন API Key টি বসান
-        const API_KEY = "AIzaSyB_6Jj09IGIvTWW2k8xeOjYpIMYt_ms6wY";
+        const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
         async function sendMessage() {
             const inputField = document.getElementById("user-input");
